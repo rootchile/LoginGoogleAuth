@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="/assets/img/brand/favicon.png" rel="icon" type="image/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!-- Icons -->
+    <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <link type="text/css" href="/assets/css/argon.css?v=1.0.0" rel="stylesheet">
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="{{GOOGLE_CLIENTID}}">
+    <title>layout/dashboard.hbs</title>
+</head>
+
+<body>
+
+    {{{body}}}
+     <div data-width="1" data-height="1"  class="g-signin2" data-onsuccess="onSignInDashboard" data-theme="light" style="display:none;"></div>
+
+</body>
+</html>
